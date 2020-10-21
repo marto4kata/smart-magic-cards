@@ -1,7 +1,7 @@
 const suits = ['hearts', 'spades', 'diamonds', 'clubs'];
 const cardsWrapper = document.querySelector('.cards-wrapper');
-const btnWrapper = document.querySelector('.btn-wrapper'); /* eslint-disable-line */
-const selectedCardsWrapper = document.querySelector('.selected-cards'); /* eslint-disable-line */
+const btnWrapper = document.querySelector('.btn-wrapper');
+const selectedCardsWrapper = document.querySelector('.selected-cards');
 
 function createCards() {
   const cards = [];

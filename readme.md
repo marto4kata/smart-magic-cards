@@ -9,25 +9,25 @@ When the magician reveals the deck of cards once more, the picked card is remove
 Eg. the 8 of hears it picked, now all the 8's are removed from the deck and added to the picked card.<br>
 
 ### Requirements
-- Make sure all 4 suits of cards are rendered and sorted by suit. There are 13 cards in each suit ( ♥, ♣, ♦, ♠ ).
-- Make sure the value for each card is visible on the initial render, basically move each card a bit so the card is readable.
-- Add 3 buttons to the flow that will allow you to do 3 actions:
-  - **Shuffle:** Randomly shuffles all cards.
-  - **Flip cards:** Turn all the cards face down by adding a class (CSS is already included).
-  - **Magic:** Remove all related cards from the deck after picking a card. (Only display this button after a card has been picked).
-- Create the functionality to pick a card, by clicking on a random card.
-- When the trick is performed (by clicking the magic button), move the related cards to the picked card.
+- [x] Make sure all 4 suits of cards are rendered and sorted by suit. There are 13 cards in each suit ( ♥, ♣, ♦, ♠ ).
+- [x] Make sure the value for each card is visible on the initial render, basically move each card a bit so the card is readable.
+- [x] Add 3 buttons to the flow that will allow you to do 3 actions:
+  - [x] **Shuffle:** Randomly shuffles all cards.
+  - [x] **Flip cards:** Turn all the cards face down by adding a class (CSS is already included).
+  - [x] **Magic:** Remove all related cards from the deck after picking a card. (Only display this button after a card has been picked).
+- [x] Create the functionality to pick a card, by clicking on a random card.
+- [x] When the trick is performed (by clicking the magic button), move the related cards to the picked card.
 
 #### Bonus points
-  - Find a way to remove duplications in the `cards.scss` file and generate all the classes automatically for the cards: `.hearts-1`, `.hearts-2`, ... , `.spades-13`.
-  - Add animation.
-  - Do not use images for the cards, style them with CSS/SCSS only.
-  - Uncomment the tests in the `cypress/integration/magic-trick.js` file and **make sure the tests pass**.
-  - Add additional tests (we like test coverage).
-  - Usuage of drag and drop to pick a card.
-  - Having a way of resetting the app, withouth reloading the page.
-  - Do not break any linting rules. (The linter runs before tests)
-  - Add some extra functionality, this is your chance to be creative. 😉
+  - [x] Find a way to remove duplications in the `cards.scss` file and generate all the classes automatically for the cards: `.hearts-1`, `.hearts-2`, ... , `.spades-13`.
+  - [ ] Add animation.
+  - [ ] Do not use images for the cards, style them with CSS/SCSS only.
+  - [x] Uncomment the tests in the `cypress/integration/magic-trick.js` file and **make sure the tests pass**.
+  - [x] Add additional tests (we like test coverage). (added test for resetting)
+  - [ ] Usuage of drag and drop to pick a card.
+  - [x] Having a way of resetting the app, withouth reloading the page.
+  - [x] Do not break any linting rules. (The linter runs before tests)
+  - [ ] Add some extra functionality, this is your chance to be creative. 😉
 
 #### Example
 <img src="assets/working-example.gif" alt="working-example">
